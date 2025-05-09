@@ -13,7 +13,6 @@ interface Collection {
   isActive: boolean;
 }
 
-// Варианты анимации для контейнера и элементов
 const containerVariants = {
   hidden: { opacity: 0 },
   show: {

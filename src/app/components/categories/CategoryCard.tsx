@@ -11,6 +11,7 @@ interface CategoryCardProps {
   description: string;
 }
 
+
 export default function CategoryCard({ title, image, itemCount }: CategoryCardProps) {
   return (
     <motion.div
